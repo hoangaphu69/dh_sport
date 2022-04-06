@@ -32,10 +32,10 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => '',
-		'username' => 'root',
-		'password' => '',
-		'database' => 'dh_sport',
+		'hostname' => 'wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+		'username' => 'mxc95g7kefmr25yx',
+		'password' => 'izxjmimgy9930n4s',
+		'database' => 'qhf67xcacpwketgy',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
