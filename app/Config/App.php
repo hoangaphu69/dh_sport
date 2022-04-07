@@ -23,8 +23,10 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'https://dh-sport.herokuapp.com/';
-	
+	// public $baseURL = 'https://dh-sport.herokuapp.com/';
+	// public $baseURL = 'http://' . $_SERVER['HTTP_HOST'] . '/dh_sport';
+
+	public $baseURL = BASE_URL;
 	/**
 	 * --------------------------------------------------------------------------
 	 * Index File
