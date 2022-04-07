@@ -78,7 +78,7 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-$host = $_SERVER['HTTP_HOST'];
+// $host = $_SERVER['dh-sport.herokuapp.com/'];
 $http_https = isset($_SERVER['HTTPS']) ? "https://" : "http://";
-$baseURL = $http_https . $host;
+$baseURL = $http_https . "dh-sport.herokuapp.com/";
 define('BASE_URL', $baseURL);
