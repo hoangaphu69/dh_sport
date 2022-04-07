@@ -8,9 +8,10 @@ class Employee extends ResourceController
     use ResponseTrait;
     // all users
     public function index(){
-      $model = new EmployeeModel();
-      $data['employees'] = $model->orderBy('id', 'DESC')->findAll();
-      return $this->respond($data);
+    //   $model = new EmployeeModel();
+    //   $data['employees'] = $model->orderBy('id', 'DESC')->findAll();
+    //   return $this->respond($data);
+    echo '$data';
     }
     // create
     public function create() {
