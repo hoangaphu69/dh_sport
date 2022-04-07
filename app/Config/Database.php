@@ -31,7 +31,7 @@ class Database extends Config
 	 * @var array
 	 */
 	public $default = [
-		'DSN'      => '',
+		'DSN'      => 'mysql://mxc95g7kefmr25yx:izxjmimgy9930n4s@wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qhf67xcacpwketgy',
 		'hostname' => 'wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 		'username' => 'mxc95g7kefmr25yx',
 		'password' => 'izxjmimgy9930n4s',
